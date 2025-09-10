@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <span className="logo-text">TEKMACON</span>
+              <span className="logo-text">TEKIMACON Engineering</span>
               <span className="logo-subtitle">PLC</span>
             </div>
             <p className="footer-description">
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Tekmacon PLC. All rights reserved.</p>
+          <p>&copy; {currentYear} Tekimacon Engineering PLC. All rights reserved.</p>
           <div className="footer-bottom-links">
             <a href="#">Privacy Policy</a>
             <span>|</span>

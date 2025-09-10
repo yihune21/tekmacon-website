@@ -93,4 +93,4 @@ This will create an optimized production build in the `build` folder.
 
 ## License
 
-© 2024 Tekmacon PLC. All rights reserved
+© 2024 Tekimacon Engineering PLC. All rights reserved
