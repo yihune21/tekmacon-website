@@ -1,0 +1,69 @@
+.clients {
+  background-color: var(--bg-light);
+}
+
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.client-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.client-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+  border-color: var(--primary-color);
+}
+
+.client-logo {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 15px;
+  background: linear-gradient(135deg, var(--primary-color), #2563eb);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.client-card:hover .client-logo {
+  transform: rotate(5deg) scale(1.05);
+}
+
+.client-name {
+  font-size: 1rem;
+  color: var(--text-light);
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .clients-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .client-card {
+    padding: 20px;
+  }
+  
+  .client-logo {
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+}
